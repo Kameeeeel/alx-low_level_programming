@@ -1,13 +1,13 @@
-#include <stdio.h>
 /*
- * main function to print the sentence with proper grammar, but the outcome is a piece of art,
+ * main - Entry point of the program
  *
- * Description: A C program that uses a printf function
- * 
- * return: must be zero
-*/
+ * Description: This function prints a sentence with proper grammar.
+ *
+ * Return: 0 on successful execution
+ */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
-	return (0);
+    printf("With proper grammar, but the outcome is a piece of art,");
+    return 0;
 }
+
