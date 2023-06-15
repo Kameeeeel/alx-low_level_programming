@@ -1,12 +1,9 @@
 #include <stdio.h>
 
-/*
- * main prints the phrase Programming is like building a multilingual puzzle
- *
- * Description: A C program with puts function
- *
- * return: Zero is the target
-**/
+/**
+ * main - prints the phrase "Programming is like building a multilingual puzzle
+ * Return: 0 if exited properly, non-zero otherwise
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
