@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main is the entry point
+ * main prints the phrase Programming is like building a multilingual puzzle
  *
  * Description: A C program with puts function
  *
