@@ -7,7 +7,6 @@
  *
  * return: Zero is the target
 **/
-
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
