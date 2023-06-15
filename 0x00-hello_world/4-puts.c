@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main = entry point
+ * main is the entry point
  *
  * Description: A C program with puts function
  *
