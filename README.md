@@ -1,1 +1,1 @@
-this is my repository README.md file
+this is my directory README file foor Variables and IF statements
