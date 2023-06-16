@@ -13,11 +13,11 @@
 int main(void)
 
 {
-	putchar l = 'a';
+	char l = 'a';
 
 	while (l <= 'z')
 	{
-		printf("%d", l);
+		putchar('%c');
 		l++;
 	}
 	return (0);
