@@ -18,6 +18,7 @@ int main(void)
 	while (l <= 'z')
 	{
 		putchar('%c');
+		putchar('\n')
 		l++;
 	}
 	return (0);
