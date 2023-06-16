@@ -4,7 +4,7 @@
 /**
  * main - entry point
  * Description: this a C prgram that uses If statement
- * retyrn: must be zero
+ * Return: always 0 (Success)
 */
 /* betty style doc for function main goes there */
 int main(void)
@@ -17,7 +17,7 @@ int main(void)
 	if (num > 0)
 	{
 		printf("%d is positive\n", n);
-	} else if (num == 0) 
+	} else if (num == 0)
 	{
 		printf("%d is zero\n", n);
 	} else
