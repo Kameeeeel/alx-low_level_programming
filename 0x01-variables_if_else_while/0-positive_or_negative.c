@@ -1,7 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
+/**
+ * main - entry point
+ * Description: this a C prgram that uses If statement
+ * retyrn: must be zero
+*/
 /* betty style doc for function main goes there */
 int main(void)
 {
