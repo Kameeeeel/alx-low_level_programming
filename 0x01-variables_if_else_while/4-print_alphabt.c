@@ -1,22 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- *
- * Description: A C program that uses putchar function
- *
- * Return: always is 0 (Success)
-*/
-
+ * main - prints the alphabet in lowercase,
+ * followed by a new line, except q and e
+ * Return: Aways 0 (Sucess)
+ */
 int main(void)
 {
-	char ch;
+	char ch = 'a';
 
-	ch = 'a';
-
-	for (; ch <= 'z' && ch != 'e' && ch != 'q'; )
+	while (ch <= 'z')
 	{
-		putchar(ch);
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
 		ch++;
 	}
 	putchar('\n');
