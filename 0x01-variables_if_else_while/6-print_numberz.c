@@ -10,11 +10,11 @@
 
 int main(void)
 {
-	int n = 0;
+	unsigned char n = 0;
 
 	while (n <= 9)
 	{
-		putchar('n');
+		putchar(n);
 		n++;
 	}
 	putchar('\n');
