@@ -15,12 +15,12 @@ int main(void)
 	while (n <= 57)
 	{
 		putchar(n);
-		n++;
 		if (n != 57)
 		{
 			putchar(',');
 			putchar(' ');
 		}
+		n++;
 	}
 	return (0);
 }
