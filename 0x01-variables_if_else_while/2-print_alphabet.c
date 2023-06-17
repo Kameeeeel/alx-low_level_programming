@@ -1,25 +1,18 @@
 #include <stdio.h>
 
-
 /**
- * main - entry point
- *
- * Description: A C program that uses putchar function
- *
- * Return: always 0 (Success)
-*/
-
-
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
-
 {
-	char l = 'a';
+	char ch;
 
-	while (l <= 'z')
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar('%c');
-		putchar('\n')
-		l++;
+		putchar(ch);
 	}
+	putchar('\n');
 	return (0);
 }
