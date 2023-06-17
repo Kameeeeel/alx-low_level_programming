@@ -10,9 +10,9 @@
 
 int main(void)
 {
-	char n = '0', ch = 'A';
+	char n = 0, ch = 'A';
 
-	while (n <= '9')
+	while (n <= 9)
 	{
 		putchar(n);
 		n++;
