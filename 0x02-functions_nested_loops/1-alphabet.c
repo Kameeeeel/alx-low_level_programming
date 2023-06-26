@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- *print_alphabet: a function that uses for loop
- *
- *Description: A C Program that utilizes the
- *_putchar function to print alphabet
+ *print_alphabet - a C Program that utilizes the _putchar
+ *		function to print the alphabet in lower cases
 */
 
 void print_alphabet(void)
