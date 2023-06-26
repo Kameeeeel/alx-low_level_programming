@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * print_alphabet - Entry point
- * Return:0
- */
+ * main - entry point
+ *
+ * Description: A C Program that uses _putchar function
+ *
+ * Return: must be always 0 (Success)
+*/
 
 void print_alphabet(void)
 {
-	char c = 'a';
-
-	while (c <= 'z')
+	int i;
+	for (i = 65; i <= 97; i++)
 	{
-		_putchar(c);
-		c++;
-
+		_putchar(i);
+		_putchar('\n');
 	}
-	_putchar('\n');
-
+	return (0);
 }
