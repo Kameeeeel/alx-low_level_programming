@@ -5,7 +5,7 @@
  *
  * Description: a C Program that uses _putchar function
  *
- * Return: Must be always 0 (Success) 
+ * Return: Must be always 0 (Success)
 */
 
 int main(void)
