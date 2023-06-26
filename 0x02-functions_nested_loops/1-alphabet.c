@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet: the start function and prototype
  *
- * Description: A C Program that uses _putchar function
+ * Description: A C Program that utilizes the _putchar function to print alphabet
  *
- * Return: must be always 0 (Success)
 */
 
 void print_alphabet(void)
