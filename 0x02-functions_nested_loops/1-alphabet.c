@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_alphabet: the start function and prototype
  *
  * Description: A C Program that uses _putchar function
  *
