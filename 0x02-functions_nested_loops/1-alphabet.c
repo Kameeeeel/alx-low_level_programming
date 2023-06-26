@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
+ *print_alphabet: a function that uses for loop
  *
- * Description: A C Program that utilizes the _putchar function to print alphabet
- *
+ *Description: A C Program that utilizes the
+ *_putchar function to print alphabet
 */
 
 void print_alphabet(void)
