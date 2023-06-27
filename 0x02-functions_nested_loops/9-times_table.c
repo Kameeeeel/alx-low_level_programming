@@ -18,7 +18,8 @@ void times_table(void)
 	{
 		for (n = 0; n < 10; n++)
 		{
-			t = c * n
+			t = c * n;
+
 			if (n == 0)
 			{
 				_putchar(t);
