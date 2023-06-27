@@ -2,12 +2,6 @@
 
 /**
  * times_table - prints the 9 times table, starting with 0
- *
- * @c: is the row variable
- *
- * @n: is the column variable
- *
- * @t: is the c times n
 */
 
 void times_table(void)
