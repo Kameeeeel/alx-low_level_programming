@@ -6,30 +6,28 @@
  * followed by a new line
  * @n: print from this number
  */
+
 void print_to_98(int n)
 {
-    int c;
+    int i;
 
-    for (c = n; c >= 98; c--)
+    if (n <= 98)
     {
-        _putchar(c);
-        if (c != 98)
-        {
-            _putchar(',');
-            _putchar(' ');
+        for (i = n; i <= 98; i++)
+	{
+            printf("%d", i);
+            if (i != 98)
+                printf(", ");
         }
     }
-    _putchar('\n');
-
-    for (c = n; c <= 98; c++)
+    else
     {
-        _putchar(c);
-        if (c != 98)
-        {
-            _putchar(',');
-            _putchar(' ');
+        for (i = n; i >= 98; i--)
+	{
+		printf("%d", i);
+		if (i != 98)
+			printf(", ");
         }
     }
-    _putchar('\n');
+    printf("\n");
 }
-
