@@ -22,19 +22,19 @@ void times_table(void)
 
 			if (n == 0)
 			{
-				_putchar(t);
+				_putchar(t + 48);
 			}
 			else if (t < 10 && n != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(t);
+				_putchar(t + 48);
 			}
 			else
 			{
 				_putchar(' ');
-				_putchar(t);
+				_putchar(t + 48);
 				_putchar(',');
 			}
 		}
