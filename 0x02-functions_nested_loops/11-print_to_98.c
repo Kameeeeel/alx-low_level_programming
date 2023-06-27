@@ -7,12 +7,22 @@
  * @n: print from this number
  */
 void print_to_98(int n)
-{	
+{
 	int c;
 
-	for (n = c; n > 98; n--)
+	for (c = n; c > 98; c--)
 	{
-	_putchar(n + '0');
-	return (n);
+	_putchar(c + '0');
+	_putchar(',');
+	_putchar(' ');
 	}
+	_putchar('\n');
+
+	for (c = n; c < 98; c++)
+	{
+		_putchar(c + '0');
+		_putchar(',');
+		_putchar(' ');
+	}
+	_putchar('\n');
 }
