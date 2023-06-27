@@ -8,9 +8,7 @@
  */
 void print_to_98(int n)
 {
-	int n;
-
-	for (n > 98; n  n--)
+	for (n > 98; n--)
 	{
 	_putchar(n + '0');
 	return (n);
