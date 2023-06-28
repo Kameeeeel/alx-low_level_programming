@@ -7,10 +7,10 @@
  * Return: the result of the operation
  */
 int mul(int a, int b)
-{	
+{
 	int k;
 
 	k = a * b;
-	_putchar(k + '0');
+	_putchar(k);
 	return (0);
 }
