@@ -2,16 +2,16 @@
 
 /**
  * _puts - prints a string to stdout
- * @str: pointer to the string to print
+ * @s: pointer to the string to print
  */
 void print_rev(char *s)
 {	
 	int i = 0;
 
-	while (str[i])
+	while (s[i])
 		i++;
 
 	while (i--)
-		_putchar(str[i]);
+		_putchar(s[i]);
 	_putchar('\n');
 }
